@@ -2,7 +2,7 @@
 - name: Meraki Deployment
   hosts: localhost
   vars:
-    auth_key: "{{ auth }}"
+    auth_key: "{{ meraki_key }}"
     org_name: "{{ org }}"
 
   tasks:
