@@ -9,12 +9,12 @@
 
     - name: include variables for devices
       include_vars:
-        file: devices.yaml
+        file: devices.yml
         name: devices
 
     - name: include variables for addresses
       include_vars:
-        file: addresses.yaml
+        file: addresses.yml
         name: addresses
 
     - name: Create site network
